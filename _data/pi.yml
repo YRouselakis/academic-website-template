@@ -1,21 +1,21 @@
-- name: Dr. Richard Feynman
+- name: Dr. Yannis Rouselakis
   photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+  info: Senior Cryptographic Developer, NTT Research
+  email: yannis@rouselakis.com
+  github: https://github.com/yrouselakis
+  #researchgate: https://www.researchgate.net/
+  #scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  education1: "(2013) Ph.D. Computer Science, The University of Texas at Austin"
+  education2: "(2008) B.S. Electrical and Computer Engineering, National Technical University of Athens"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
+  education1short: (2013) Ph.D. CompSci, Austin
+  education2short: (2008) B.S. ECE, Athens
   # education3short: 
   # education4short: 
   # education5short: 
