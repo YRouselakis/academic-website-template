@@ -2,5 +2,6 @@ tags
 .jekyll-cache/
 .sass-cache/
 .DS_Store
+_site/
 package-lock.json
 node_modules/
