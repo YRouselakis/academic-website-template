@@ -7,13 +7,15 @@ permalink: /
 
 ### Welcome!
 
-<!-- Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations. -->
+I am Yannis Rouselakis, a passionate cryptographer and software developer currently contributing as a member of the Technology Promotion Group at NTT Research. Within this dynamic collective, our primary focus revolves around advancing and promoting Attribute-Based Encryption (ABE), a cutting-edge field that holds the key to transforming the landscape of secure data transmission.
 
-I am a cryptographer with primary research interests in pairing-based cryptography, identity- and attribute-based based encryption. I am also interested in Quantum Computing, Computational Complexity, and Algorithms.
+My primary research interests lie in the intricate world of cryptography, with a particular emphasis on pairing-based cryptography and identity-based encryption. These specialties allow me to explore innovative ways to secure data and communications, ensuring that our digital interactions remain confidential and tamper-resistant.
+
+Beyond the realm of cryptography, I am deeply intrigued by the vast potential of quantum computing. The intersection of Quantum Mechanics and the computational world fascinates me, and I actively engage in exploring the challenges and opportunities presented by quantum computing in the realm of secure information processing. My curiosity extends further into the realms of Computational Complexity and Algorithms, where I seek to unravel the intricacies of efficient problem-solving and the theoretical foundations that underpin modern computation.
+
+As a software developer, I take pride in contributing to the Microsoft Windows Crypto Group's work on building the SymCrypt library. This cryptographic library encompasses a wide array of symmetric, asymmetric, and mathematical primitives, showcasing my dedication to fortifying the security foundations of one of the most widely used operating systems in the world.
+
+In alignment with NTT Research's overarching mission to "Upgrade Reality," our collective efforts strive to push the boundaries of what is possible in the realms of technology and secure communication. We aspire to enhance the fabric of reality itself, leveraging advancements in cryptography, quantum computing, and beyond.
 
 <div class="container">
 <div class="row">
@@ -25,13 +27,4 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </div>
 </div>
 <br/>
-
-### About me
-
-<!-- I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now the California Institute of Technology. -->
-
-I am a member of the NTT Research - Technology Promotion group since Feb. 2022. Before that from Nov. 2020 to Feb. 2022 I was a senior Java developer in Wise.From Apr. 2018 to May 2019 I joined the Production Security group in Google, Kirkland. From Sept. 2013 to Apr. 2018 I was a member of the Windows Cryptography group in Microsoft, Redmond and from Jan. 2008 to Aug. 2013, I worked with my supervisor Brent Waters towards the completion of my Ph.D. in Cryptography with specialization in attribute-based encryption systems.
 

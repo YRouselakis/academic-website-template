@@ -1,20 +1,22 @@
-- name: Dr. Yannis Rouselakis
+- name: Yannis Rouselakis, Ph.D.
   photo: headshot.jpg
   info: Senior Cryptographic Developer, NTT Research
-  email: yannis@rouselakis.com
+  infoshort: Crypto Developer, NTT
+  email: yannis.rouselakis@gmail.com
   github: https://github.com/yrouselakis
+  linkedin: https://www.linkedin.com/in/yannis-rouselakis-a71643b1/
   #researchgate: https://www.researchgate.net/
   #scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(2013) Ph.D. Computer Science, The University of Texas at Austin"
+  education1: "(2013) Ph.D. Computer Science - Cryptography, The University of Texas at Austin"
   education2: "(2008) B.S. Electrical and Computer Engineering, National Technical University of Athens"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (2013) Ph.D. CompSci, Austin
+  education1short: (2013) Ph.D. CompSci - Crypto, Austin
   education2short: (2008) B.S. ECE, Athens
   # education3short: 
   # education4short: 

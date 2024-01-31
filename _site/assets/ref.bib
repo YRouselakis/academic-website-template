@@ -1,0 +1,75 @@
+
+@inproceedings{KPRW16,
+title={Deterministic Public-key Encryption under Continual Leakage}, 
+author={Venkata Koppula and Omkant Pandey and Yannis Rouselakis and Brent Waters},
+booktitle={Applied Cryptography and Network Security (ACNS)},
+year={2016},
+file={2014-780.pdf},
+abstract={Deterministic public-key encryption, introduced by Bellare, Boldyreva, and O'Neill (CRYPTO 2007), is an important technique for searchable encryption; it allows quick, logarithmic-time, search over encrypted data items. The technique is most effective in scenarios where frequent search queries are performed over a huge database of unpredictable data items. We initiate the study of deterministic public-key encryption (D-PKE) in the presence of leakage. We formulate appropriate security notions for leakage-resilient D-PKE, and present constructions that achieve them in the standard model. We work in the continual leakage model, where the secret-key is updated at regular intervals and an attacker can learn arbitrary but bounded leakage on the secret key during each time interval. We, however, do not consider leakage during the updates. Our main construction is based on the (standard) linear assumption in bilinear groups, tolerat- ing up to 0.5 - o(1) fraction of arbitrary leakage. The leakage rate can be improved to 1 - o(1) by relying on the SXDH assumption.
+
+At a technical level, we propose and construct a "continual leakage resilient" version of the all-but-one lossy trapdoor functions, introduced by Peikert and Waters (STOC 2008). Our formulation and construction of leakage-resilient lossy-TDFs is of independent general interest for leakage-resilient cryptography.}
+}
+
+@inproceedings{RW15,
+title={Efficient Statically-Secure Large-Universe Multi-Authority Attribute-Based Encryption},
+author={Yannis Rouselakis and Brent Waters},
+booktitle={Financial Cryptography and Data Security},
+year={2015},
+file={2015-016.pdf},
+abstract={We propose an efficient large-universe multi-authority ciphertext - policy attribute-based encryption system. In a large-universe ABE scheme, any string can be used as an attribute of the system, and these attributes are not necessarily enumerated during setup. In a multi-authority ABE scheme, there is no central authority that distributes the keys to users. Instead, there are several authorities, each of which is responsible for the authorized key distribution of a specific set of attributes. Prior to our work, several schemes have been presented that satisfy one of these two properties but not both.
+
+Our construction achieves maximum versatility by allowing multiple authorities to control the key distribution for an exponential number of attributes. In addition, the ciphertext policies of our system are sufficiently expressive and overcome the restriction that "each attribute is used only once" that constrained previous constructions. Besides versatility, another goal of our work is to increase efficiency and practicality. As a result, we use the significantly faster prime order bilinear groups rather than composite order groups. The construction is non-adaptively secure in the random oracle model under a non-interactive q-type assumption, similar to one used in prior works. Our work extends existing "program-and-cancel" techniques to prove security and introduces two new techniques of independent interest for other ABE constructions. We provide an implementation and some benchmarks of our construction in Charm, a programming framework developed for rapid prototyping of cryptographic primitives.}
+}
+
+@inproceedings{RW13,
+title={Practical Constructions and New Proof Methods for Large Universe Attribute-Based Encryption},
+author={Yannis Rouselakis and Brent Waters},
+booktitle={ACM Conference on Computer and Communications Security (CCS)},
+year={2013},
+file={2012-583.pdf},
+abstract={We propose two  large universe Attribute-Based Encryption constructions.  In a large universe ABE construction any string can be used as an attribute and attributes need not be enumerated at system setup. Our first construction establishes a novel large universe Ciphertext-Policy ABE scheme on prime order bilinear groups, while the second achieves a significant efficiency improvement over the large universe Key-Policy ABE systems of Lewko-Waters and Lewko. Both schemes are selectively secure in the standard model under two  "q-type" assumptions similar to ones used in prior works. Our work brings back "program and cancel" techniques to this problem.
+
+We provide implementations and benchmarks of our constructions in Charm; a programming environment for rapid prototyping of cryptographic primitives.}
+}
+
+@inproceedings{RPTT13,
+title={Compilation to Quantum Circuits for a Language with Quantum Data and Control},
+author={Yannis Rouselakis and Nikolaos S. Papaspyrou and Yiannis Tsiouris and Eneia N. Todoran}, 
+booktitle={Conference on Computer Science and Intelligence Systems (FedCSIS)},
+year={2013},
+file={RPPT12.pdf},
+abstract={In this paper we further investigate nQML, a functional quantum programming language that follows the "quantum data and control" paradigm. We define a semantics for nQML, which translates programs to quantum circuits in the category FQC of finite quantum computations, following the approach of Altenkirch and Grattage's QML. This semantics, which coincides with the denotational semantics for nQML over density matrices and unitary transformations, serves as a compiler from nQML programs to quantum circuits. We also provide an implementation of this compiler, written in Haskell, as well as an interpreter for quantum circuits.}
+}
+
+@inproceedings{PR12,
+title={Property Preserving Symmetric Encryption}, 
+author={Omkant Pandey and Yannis Rouselakis},
+booktitle={Eurocrypt},
+year={2012},
+file={191.pdf},
+abstract={ Processing on encrypted data is a subject of rich investigation. Several new and exotic encryption schemes, supporting a diverse set of features, have been developed for this purpose. We consider encryption schemes that are suitable for applications such as data clustering on encrypted data. In such applications, the processing algorithm needs to learn certain properties about the encrypted data to make decisions. Often these decisions depend upon multiple data items, which might have been encrypted individually and independently. Current encryption schemes do not capture this setting where computation must be done on multiple ciphertexts to make a decision.
+ 
+In this work, we seek encryption schemes which allow public computation of a pre-specified property P about the encrypted messages. That is, such schemes have an associated property P of fixed arity k, and a publicly computable algorithm Test, such that Test(ct1,...,ctk) = P(m1,...,mk), where cti is an encryption of mi for i = 1,...,k. Further, this requirement holds even if the ciphertexts ct1, ..., ctk were generated individually and independently. We call such schemes property preserving encryption schemes. Property preserving encryption (PPEnc) makes most sense in the symmetric setting due to the requirement that Test is publicly computable.
+ 
+In this work, we present a thorough investigation of property preserving symmetric encryption. We start by formalizing several meaningful notions of security for PPEnc. Somewhat surprisingly, we show that there exists a hierarchy of security notions for PPEnc, indexed by integers N, which does not collapse. We also present a symmetric PPEnc scheme for encrypting vectors in ZN of polynomial length. This construction supports the orthogonality property: for every two vectors (xy) it is possible to publicly learn whether x y = 0 mod p. Our scheme is based on bilinear groups of composite order.}
+}
+
+@inproceedings{LRW11,
+title={Achieving Leakage Resilience through Dual System Encryption},
+author={Allison Lewko and Yannis Rouselakis and Brent Waters},
+booktitle={Theory of Cryptography Conference (TCC)},
+year={2011},
+file={2010-438.pdf},
+abstract={In this work, we show that strong leakage resilience for cryptosystems with advanced functionalities can be obtained quite naturally within the methodology of dual system encryption, recently introduced by Waters. We demonstrate this concretely by providing fully secure IBE, HIBE, and ABE systems which are resilient to bounded leakage from each of many secret keys per user, as well as many master keys. This can be realized as resilience against continual leakage if we assume keys are periodically updated and no (or logarithmic) leakage is allowed during the update process. Our systems are obtained by applying a simple modification to previous dual system encryption constructions: essentially this provides a generic tool for making dual system encryption schemes leakage-resilient.}
+}
+
+@inproceedings{CDRW10,
+title={Practical Leakage-Resilient Identity-Based Encryption from Simple Assumptions},
+author={Sherman Chow and Yevgeniy Dodis and Yannis Rouselakis and Brent Waters},
+booktitle={ACM Conference on Computer and Communications Security (CCS)},
+year={2010},
+file={lr-ibe.pdf},
+abstract={We design the first Leakage-Resilient Identity-Based Encryption (LR-IBE) systems from static assumptions in the standard model. We derive these schemes by applying a hash proof technique from Alwen et.al. (Eurocrypt '10) to variants of the existing IBE schemes of Boneh-Boyen, Waters, and Lewko-Waters. As a result, we achieve leakage-resilience under the respective static assumptions of the original systems in the standard model, while also preserving the efficiency of the original schemes. Moreover, our results extend to the Bounded Retrieval Model (BRM), yielding the first regular and identity-based BRM encryption schemes from static assumptions in the standard model.
+
+The first LR-IBE system, based on Boneh-Boyen IBE, is only selectively secure under the simple Decisional Bilinear Diffie-Hellman assumption (DBDH), and serves as a stepping stone to our second fully secure construction. This construction is based on Waters IBE, and also relies on the simple DBDH. Finally, the third system is based on Lewko-Waters IBE, and achieves full security with shorter public parameters, but is based on three static assumptions related to composite order bilinear groups.}
+}

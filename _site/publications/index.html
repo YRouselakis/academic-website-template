@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Publications - Yannis Rouselakis</title>
+  <meta name="description" content="Website of Yannis Rouselakis">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="http://localhost:4000/">
+     <img src="http://localhost:4000/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Yannis Rouselakis
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="http://localhost:4000/">Home</a>
+          </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/about">About</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/publications">Publications</a>
+           </li> 
+          
+           <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/software">Software</a>
+           </li> 
+          
+        </ul>
+  </div>
+</nav>
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12 col-xs-12">
+  <style>
+.jumbotron{
+    padding:3%;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+</style>
+
+<div class="jumbotron">
+  <h3 id="refereed-conference-proceedings">Refereed conference proceedings</h3>
+  <ol class="bibliography" reversed="reversed"><li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="KPRW16">Koppula, V., Pandey, O., Rouselakis, Y., &amp; Waters, B. (2016). Deterministic Public-key Encryption under Continual Leakage. <i>Applied Cryptography and Network Security (ACNS)</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="KPRW16">Koppula, V., Pandey, O., Rouselakis, Y., &amp; Waters, B. (2016). Deterministic Public-key Encryption under Continual Leakage. <i>Applied Cryptography and Network Security (ACNS)</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/2014-780.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexKPRW16()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractKPRW16()">ABSTRACT</button>
+
+
+
+<div id="aKPRW16" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{KPRW16,
+  title = {Deterministic Public-key Encryption under Continual Leakage},
+  author = {Koppula, Venkata and Pandey, Omkant and Rouselakis, Yannis and Waters, Brent},
+  booktitle = {Applied Cryptography and Network Security (ACNS)},
+  year = {2016},
+  file = {2014-780.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bKPRW16" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Deterministic public-key encryption, introduced by Bellare, Boldyreva, and O’Neill (CRYPTO 2007), is an important technique for searchable encryption; it allows quick, logarithmic-time, search over encrypted data items. The technique is most effective in scenarios where frequent search queries are performed over a huge database of unpredictable data items. We initiate the study of deterministic public-key encryption (D-PKE) in the presence of leakage. We formulate appropriate security notions for leakage-resilient D-PKE, and present constructions that achieve them in the standard model. We work in the continual leakage model, where the secret-key is updated at regular intervals and an attacker can learn arbitrary but bounded leakage on the secret key during each time interval. We, however, do not consider leakage during the updates. Our main construction is based on the (standard) linear assumption in bilinear groups, tolerat- ing up to 0.5 - o(1) fraction of arbitrary leakage. The leakage rate can be improved to 1 - o(1) by relying on the SXDH assumption.
+
+At a technical level, we propose and construct a "continual leakage resilient" version of the all-but-one lossy trapdoor functions, introduced by Peikert and Waters (STOC 2008). Our formulation and construction of leakage-resilient lossy-TDFs is of independent general interest for leakage-resilient cryptography.</pre>
+</div>
+
+<script>
+function toggleBibtexKPRW16(parameter) {
+    var x= document.getElementById('aKPRW16');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractKPRW16(parameter) {
+    var x= document.getElementById('bKPRW16');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RW15">Rouselakis, Y., &amp; Waters, B. (2015). Efficient Statically-Secure Large-Universe Multi-Authority Attribute-Based Encryption. <i>Financial Cryptography and Data Security</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RW15">Rouselakis, Y., &amp; Waters, B. (2015). Efficient Statically-Secure Large-Universe Multi-Authority Attribute-Based Encryption. <i>Financial Cryptography and Data Security</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/2015-016.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRW15()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRW15()">ABSTRACT</button>
+
+
+
+<div id="aRW15" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{RW15,
+  title = {Efficient Statically-Secure Large-Universe Multi-Authority Attribute-Based Encryption},
+  author = {Rouselakis, Yannis and Waters, Brent},
+  booktitle = {Financial Cryptography and Data Security},
+  year = {2015},
+  file = {2015-016.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bRW15" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>We propose an efficient large-universe multi-authority ciphertext - policy attribute-based encryption system. In a large-universe ABE scheme, any string can be used as an attribute of the system, and these attributes are not necessarily enumerated during setup. In a multi-authority ABE scheme, there is no central authority that distributes the keys to users. Instead, there are several authorities, each of which is responsible for the authorized key distribution of a specific set of attributes. Prior to our work, several schemes have been presented that satisfy one of these two properties but not both.
+
+Our construction achieves maximum versatility by allowing multiple authorities to control the key distribution for an exponential number of attributes. In addition, the ciphertext policies of our system are sufficiently expressive and overcome the restriction that "each attribute is used only once" that constrained previous constructions. Besides versatility, another goal of our work is to increase efficiency and practicality. As a result, we use the significantly faster prime order bilinear groups rather than composite order groups. The construction is non-adaptively secure in the random oracle model under a non-interactive q-type assumption, similar to one used in prior works. Our work extends existing "program-and-cancel" techniques to prove security and introduces two new techniques of independent interest for other ABE constructions. We provide an implementation and some benchmarks of our construction in Charm, a programming framework developed for rapid prototyping of cryptographic primitives.</pre>
+</div>
+
+<script>
+function toggleBibtexRW15(parameter) {
+    var x= document.getElementById('aRW15');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRW15(parameter) {
+    var x= document.getElementById('bRW15');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RW13">Rouselakis, Y., &amp; Waters, B. (2013). Practical Constructions and New Proof Methods for Large Universe Attribute-Based Encryption. <i>ACM Conference on Computer and Communications Security (CCS)</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RW13">Rouselakis, Y., &amp; Waters, B. (2013). Practical Constructions and New Proof Methods for Large Universe Attribute-Based Encryption. <i>ACM Conference on Computer and Communications Security (CCS)</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/2012-583.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRW13()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRW13()">ABSTRACT</button>
+
+
+
+<div id="aRW13" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{RW13,
+  title = {Practical Constructions and New Proof Methods for Large Universe Attribute-Based Encryption},
+  author = {Rouselakis, Yannis and Waters, Brent},
+  booktitle = {ACM Conference on Computer and Communications Security (CCS)},
+  year = {2013},
+  file = {2012-583.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bRW13" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>We propose two  large universe Attribute-Based Encryption constructions.  In a large universe ABE construction any string can be used as an attribute and attributes need not be enumerated at system setup. Our first construction establishes a novel large universe Ciphertext-Policy ABE scheme on prime order bilinear groups, while the second achieves a significant efficiency improvement over the large universe Key-Policy ABE systems of Lewko-Waters and Lewko. Both schemes are selectively secure in the standard model under two  "q-type" assumptions similar to ones used in prior works. Our work brings back "program and cancel" techniques to this problem.
+
+We provide implementations and benchmarks of our constructions in Charm; a programming environment for rapid prototyping of cryptographic primitives.</pre>
+</div>
+
+<script>
+function toggleBibtexRW13(parameter) {
+    var x= document.getElementById('aRW13');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRW13(parameter) {
+    var x= document.getElementById('bRW13');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="RPTT13">Rouselakis, Y., Papaspyrou, N. S., Tsiouris, Y., &amp; Todoran, E. N. (2013). Compilation to Quantum Circuits for a Language with Quantum Data and Control. <i>Conference on Computer Science and Intelligence Systems (FedCSIS)</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="RPTT13">Rouselakis, Y., Papaspyrou, N. S., Tsiouris, Y., &amp; Todoran, E. N. (2013). Compilation to Quantum Circuits for a Language with Quantum Data and Control. <i>Conference on Computer Science and Intelligence Systems (FedCSIS)</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/RPPT12.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexRPTT13()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractRPTT13()">ABSTRACT</button>
+
+
+
+<div id="aRPTT13" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{RPTT13,
+  title = {Compilation to Quantum Circuits for a Language with Quantum Data and Control},
+  author = {Rouselakis, Yannis and Papaspyrou, Nikolaos S. and Tsiouris, Yiannis and Todoran, Eneia N.},
+  booktitle = {Conference on Computer Science and Intelligence Systems (FedCSIS)},
+  year = {2013},
+  file = {RPPT12.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bRPTT13" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In this paper we further investigate nQML, a functional quantum programming language that follows the "quantum data and control" paradigm. We define a semantics for nQML, which translates programs to quantum circuits in the category FQC of finite quantum computations, following the approach of Altenkirch and Grattage’s QML. This semantics, which coincides with the denotational semantics for nQML over density matrices and unitary transformations, serves as a compiler from nQML programs to quantum circuits. We also provide an implementation of this compiler, written in Haskell, as well as an interpreter for quantum circuits.</pre>
+</div>
+
+<script>
+function toggleBibtexRPTT13(parameter) {
+    var x= document.getElementById('aRPTT13');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractRPTT13(parameter) {
+    var x= document.getElementById('bRPTT13');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="PR12">Pandey, O., &amp; Rouselakis, Y. (2012). Property Preserving Symmetric Encryption. <i>Eurocrypt</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="PR12">Pandey, O., &amp; Rouselakis, Y. (2012). Property Preserving Symmetric Encryption. <i>Eurocrypt</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/191.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexPR12()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractPR12()">ABSTRACT</button>
+
+
+
+<div id="aPR12" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{PR12,
+  title = {Property Preserving Symmetric Encryption},
+  author = {Pandey, Omkant and Rouselakis, Yannis},
+  booktitle = {Eurocrypt},
+  year = {2012},
+  file = {191.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bPR12" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre> Processing on encrypted data is a subject of rich investigation. Several new and exotic encryption schemes, supporting a diverse set of features, have been developed for this purpose. We consider encryption schemes that are suitable for applications such as data clustering on encrypted data. In such applications, the processing algorithm needs to learn certain properties about the encrypted data to make decisions. Often these decisions depend upon multiple data items, which might have been encrypted individually and independently. Current encryption schemes do not capture this setting where computation must be done on multiple ciphertexts to make a decision.
+ 
+In this work, we seek encryption schemes which allow public computation of a pre-specified property P about the encrypted messages. That is, such schemes have an associated property P of fixed arity k, and a publicly computable algorithm Test, such that Test(ct1,...,ctk) = P(m1,...,mk), where cti is an encryption of mi for i = 1,...,k. Further, this requirement holds even if the ciphertexts ct1, ..., ctk were generated individually and independently. We call such schemes property preserving encryption schemes. Property preserving encryption (PPEnc) makes most sense in the symmetric setting due to the requirement that Test is publicly computable.
+ 
+In this work, we present a thorough investigation of property preserving symmetric encryption. We start by formalizing several meaningful notions of security for PPEnc. Somewhat surprisingly, we show that there exists a hierarchy of security notions for PPEnc, indexed by integers N, which does not collapse. We also present a symmetric PPEnc scheme for encrypting vectors in ZN of polynomial length. This construction supports the orthogonality property: for every two vectors (xy) it is possible to publicly learn whether x y = 0 mod p. Our scheme is based on bilinear groups of composite order.</pre>
+</div>
+
+<script>
+function toggleBibtexPR12(parameter) {
+    var x= document.getElementById('aPR12');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractPR12(parameter) {
+    var x= document.getElementById('bPR12');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="LRW11">Lewko, A., Rouselakis, Y., &amp; Waters, B. (2011). Achieving Leakage Resilience through Dual System Encryption. <i>Theory of Cryptography Conference (TCC)</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="LRW11">Lewko, A., Rouselakis, Y., &amp; Waters, B. (2011). Achieving Leakage Resilience through Dual System Encryption. <i>Theory of Cryptography Conference (TCC)</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/2010-438.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexLRW11()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractLRW11()">ABSTRACT</button>
+
+
+
+<div id="aLRW11" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{LRW11,
+  title = {Achieving Leakage Resilience through Dual System Encryption},
+  author = {Lewko, Allison and Rouselakis, Yannis and Waters, Brent},
+  booktitle = {Theory of Cryptography Conference (TCC)},
+  year = {2011},
+  file = {2010-438.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bLRW11" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>In this work, we show that strong leakage resilience for cryptosystems with advanced functionalities can be obtained quite naturally within the methodology of dual system encryption, recently introduced by Waters. We demonstrate this concretely by providing fully secure IBE, HIBE, and ABE systems which are resilient to bounded leakage from each of many secret keys per user, as well as many master keys. This can be realized as resilience against continual leakage if we assume keys are periodically updated and no (or logarithmic) leakage is allowed during the update process. Our systems are obtained by applying a simple modification to previous dual system encryption constructions: essentially this provides a generic tool for making dual system encryption schemes leakage-resilient.</pre>
+</div>
+
+<script>
+function toggleBibtexLRW11(parameter) {
+    var x= document.getElementById('aLRW11');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractLRW11(parameter) {
+    var x= document.getElementById('bLRW11');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="CDRW10">Chow, S., Dodis, Y., Rouselakis, Y., &amp; Waters, B. (2010). Practical Leakage-Resilient Identity-Based Encryption from Simple Assumptions. <i>ACM Conference on Computer and Communications Security (CCS)</i>.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="CDRW10">Chow, S., Dodis, Y., Rouselakis, Y., &amp; Waters, B. (2010). Practical Leakage-Resilient Identity-Based Encryption from Simple Assumptions. <i>ACM Conference on Computer and Communications Security (CCS)</i>.</span></div> -->
+
+
+
+
+
+<a href="http://localhost:4000/papers/lr-ibe.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexCDRW10()">BIB</button>
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractCDRW10()">ABSTRACT</button>
+
+
+
+<div id="aCDRW10" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@inproceedings{CDRW10,
+  title = {Practical Leakage-Resilient Identity-Based Encryption from Simple Assumptions},
+  author = {Chow, Sherman and Dodis, Yevgeniy and Rouselakis, Yannis and Waters, Brent},
+  booktitle = {ACM Conference on Computer and Communications Security (CCS)},
+  year = {2010},
+  file = {lr-ibe.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bCDRW10" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>We design the first Leakage-Resilient Identity-Based Encryption (LR-IBE) systems from static assumptions in the standard model. We derive these schemes by applying a hash proof technique from Alwen et.al. (Eurocrypt ’10) to variants of the existing IBE schemes of Boneh-Boyen, Waters, and Lewko-Waters. As a result, we achieve leakage-resilience under the respective static assumptions of the original systems in the standard model, while also preserving the efficiency of the original schemes. Moreover, our results extend to the Bounded Retrieval Model (BRM), yielding the first regular and identity-based BRM encryption schemes from static assumptions in the standard model.
+
+The first LR-IBE system, based on Boneh-Boyen IBE, is only selectively secure under the simple Decisional Bilinear Diffie-Hellman assumption (DBDH), and serves as a stepping stone to our second fully secure construction. This construction is based on Waters IBE, and also relies on the simple DBDH. Finally, the third system is based on Lewko-Waters IBE, and achieves full security with shorter public parameters, but is based on three static assumptions related to composite order bilinear groups.</pre>
+</div>
+
+<script>
+function toggleBibtexCDRW10(parameter) {
+    var x= document.getElementById('aCDRW10');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractCDRW10(parameter) {
+    var x= document.getElementById('bCDRW10');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+</div>
+
+</div>
+
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>About</h5>	
+            <p>Yannis Rouselakis<br/> Senior Cryptographic Developer<br/> NTT Research - CIS Lab
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contact</h5>	
+            <p><a href="mailto:yannis.rouselakis@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yannis via email</a> <br/>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Coordinates</h5>	
+            <p>NTT Europe<br/> 1 King William Street<br/> London, UK, EC4N 7AR
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2024 Yannis Rouselakis </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
