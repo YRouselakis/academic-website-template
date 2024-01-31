@@ -79,7 +79,7 @@ permalink: /about/
 ### Work experience
 <ul>
 {% for job in site.data.work_experience %}
- <li> {{ job.title }}, {{job.company}} @ {{job.location}}. ({{job.from}} - {{job.to}}) </li>
+ <li> {{ job.title }}, <b>{{job.company}}</b> @ {{job.location}}. ({{job.from}} - {{job.to}}) </li>
 {% endfor %}
 </ul>
 </div>
