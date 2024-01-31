@@ -38,17 +38,31 @@ iframe {
 
 <div class="jumbotron">
 <div class="row align-items-end">
+
 <div class="col-md-12 col-sm-12">
-<h4><b>Example Software</b></h4>
-<a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<h4><b>Source code 1</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<a href="https://github.com/YRouselakis/ccs13abe" target="_blank"><button class="btn btn-info btn-sm">GIT v1</button></a>
+<a href="https://raw.githubusercontent.com/JHUISI/charm/dev/charm/schemes/abenc/abenc_maabe_rw15.py" target="_blank"><button class="btn btn-info btn-sm">GIT v2</button></a>
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a>  -->
 
-<b>Authors:</b>
-<i>Example authors</i>
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
 
-Example software description.
-
+Source code for "Efficient Statically-Secure Large-Universe Multi-Authority Attribute-Based Encryption" (Python/Charm)
 </div>
+
+<div class="col-md-12 col-sm-12">
+<h4><b>Source code 2</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<a href="https://github.com/YRouselakis/rwabe" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a>  -->
+
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
+
+Source code for "Practical Constructions and New Proof Methods for Large Universe Attribute-Based Encryption" (Python/Charm)
+</div>
+
 </div>
 </div>
