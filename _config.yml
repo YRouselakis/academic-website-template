@@ -1,6 +1,6 @@
 # Site settings
 title: Yannis Rouselakis
-email: yannis.rouselakis@gmail.com
+email: yannis@rouselakis.com
 description: Website of Yannis Rouselakis
 baseurl: ""
 url: ""
@@ -22,7 +22,7 @@ location: >
   London, UK, EC4N 7AR
 
 contact: >
-    <a href="mailto:yannis.rouselakis@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yannis via email</a> <br/>
+    <a href="mailto:yannis@rouselakis.com" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yannis via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
